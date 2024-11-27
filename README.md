@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 Module-9-Challenge: Weather Dashboard
 
 This project is a Weather Dashboard application that allows users to view current weather conditions and a 5-day forecast for cities around the world. It utilizes the OpenWeather API for data and is designed with a simple and responsive UI.
@@ -55,4 +55,3 @@ This project is licensed under the MIT License.
 =======
 # Module-9-Challenge
 This app uses the OpenWeather API to show current and 5-day weather forecasts for cities. Features include city search, persistent search history, and weather data display with temperature, wind speed, and humidity. Built with Node.js, Express, and deployed on Render.
->>>>>>> 5d6c770c3cb7f7cb8e7a94b48684b8b5918c056e
