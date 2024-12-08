@@ -20,7 +20,7 @@ This project is a Weather Dashboard application that allows users to view curren
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/Module-9-Challenge.git
+    git clone https://github.com/Azugr/Module-9-Challenge
     cd Module-9-Challenge
     ```
 
