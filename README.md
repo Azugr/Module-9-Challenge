@@ -1,7 +1,7 @@
 HEAD
 Module-9-Challenge: Weather Dashboard
 
-This project is a Weather Dashboard application that allows users to view current weather conditions and a 5-day forecast for cities around the world. It utilizes the OpenWeather API for data and is designed with a simple and responsive UI.
+This project is a Weather Dashboard application that allows users to view current weather conditions and a five-day forecast for cities around the world. It utilizes the OpenWeather API for data and is designed with a simple and responsive UI.
 
 Features
 
