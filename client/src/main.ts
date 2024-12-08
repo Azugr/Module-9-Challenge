@@ -106,8 +106,8 @@ const fetchSearchHistory = async (): Promise<{ cityName: string; id: string }[]>
 
     // Transform the data structure
     const history = await response.json();
-    return history.map((item: { name: string; id: string }) => ({
-      cityName: item.name,
+    return history.map((item: { cityName: string; id: string }) => ({
+      cityName: item.cityName,
       id: item.id,
     }));
   } catch (error) {
@@ -180,7 +180,7 @@ const renderSearchHistory = async (): Promise<void> => {
     ? ''
     : '<p class="text-center">No Previous Search History</p>';
 
-  searchHistory.forEach((cityName) => {
+    searchHistory.forEach((cityName) => {
     const historyItem = buildHistoryListItem(cityName);
     searchHistoryContainer.append(historyItem);
   });
